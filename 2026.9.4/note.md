@@ -1,0 +1,14 @@
+[Day 15 Cache and TLB Flushing Under Linux (summary)](https://ithelp.ithome.com.tw/articles/10271097)
+- 因為 PIPT 需要兩次(serial access) 太慢
+- 所以產生 VIVT(Virtually addressed cache) 的解法，完全不用 access TLB
+	- 問題
+		- homonyms : 不同 process 可能有相同 VA 對應到不同 PA，在 cache 如果沒有正確維護，新 VA 會 access 舊的 PA
+		- synonyms : 不同 VA 對應到相同 PA
+	- 解法
+		- flush cache (但會有極大的 latency)
+- 折衷方案 : VIPT(固定 page offset 大小)
+	- 問題
+		- 依然可能會有 synonyms/aliasing 
+	- 解法
+		- cache 設計 : index-bit + offset-bit(block offest) $\le$ page offset bit  #考點
+- 
