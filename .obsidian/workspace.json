@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026.9.7/檢討.md",
+                "file": "2026.9.10/檢討.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,13 +185,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "b1817c4130ec8e9f",
   "lastOpenFiles": [
-    "2026.9.7/note.md",
     "2026.9.7/檢討.md",
+    "2026.9.10/檢討.md",
+    "2026.9.10/2026.9.10 meet.xopp~",
+    "2026.9.10/2026.9.10 meet.xopp",
+    "2026.9.10",
+    "2026.9.7/note.md",
     "2026.9.7/2026.9.7 meet.xopp~",
     "2026.9.7/ch39-file-intro.pdf",
     "2026.9.7/ch40-file-implementation.pdf",
@@ -201,9 +206,6 @@
     "2026.9.4/2026.9.4 meet.xopp~",
     "2026.9.4/2026.9.4 meet.xopp",
     "2026.9.2/檢討.md",
-    "2026.9.4",
-    "2026.9.2/2026.9.2 meet.pdf",
-    "2026.8.29/2026.8.29 meet.pdf",
     "2026.8.27/note.md",
     "2026.8.20/檢討.md",
     "2026.8.17/檢討.md",
